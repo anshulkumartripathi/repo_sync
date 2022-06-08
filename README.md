@@ -1,3 +1,3 @@
 # repo_sync
 To sync the repo using github action
-yes checkinga hfkdf kvfkj nvsdvjkp
+yes checkinga hfkdf kvfkj nvsdvjkp dlnwdodkvjjv
