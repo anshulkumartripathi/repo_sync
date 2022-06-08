@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - run: |
-        git remote add adobe https://github
+        git remote add sync https://github.com/anshulktripathi/sync_repo_gmail.git
         git checkout branch1
         git pull
-        git push adobe -all
+        git push sync -all
      - run: |
          echo "one last message"
