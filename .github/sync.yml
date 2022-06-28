@@ -1,3 +1,3 @@
 anshulktripathi/sync_repo_gmail@branch1:
-  - source: file1
-    dest: file1
+  - source: anshul/
+    dest: anshul/
