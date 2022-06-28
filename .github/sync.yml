@@ -1,0 +1,3 @@
+anshulktripathi/sync_repo_gmail:
+  - source: *
+    dest: *
