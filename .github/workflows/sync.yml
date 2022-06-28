@@ -8,10 +8,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-     - run: |
-        git remote add sync https://github.com/anshulktripathi/sync_repo_gmail
-        git checkout branch1
-        git pull
-        git push sync -all
-     - run: |
-         echo "one last message"
+      - name: Checkout Repository
+        uses: actions/checkout@main
+      - name: Run GitHub File Sync
+        uses: BetaHuhn/repo-file-sync-action@latest
+        with:
+          GH_PAT: ${{ secrets.GH_PAT }}
