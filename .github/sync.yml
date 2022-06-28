@@ -1,3 +1,7 @@
 anshulktripathi/sync_repo_gmail@branch1:
-  - source: anshul/
-    dest: anshul/
+  - source: |
+           anshul/
+           ayushi/
+    dest: |
+          anshul/
+          ayushi/
