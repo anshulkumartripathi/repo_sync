@@ -2,7 +2,7 @@ name: Sync Files
 on:
   push:
     branches:
-      - branch1
+      - branch2
   workflow_dispatch:
 jobs:
   sync:
@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          ref: branch1
+          ref: branch2
       - name: Run GitHub File Sync
         uses: BetaHuhn/repo-file-sync-action@latest
         with:
