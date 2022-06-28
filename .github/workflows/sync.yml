@@ -2,8 +2,7 @@ name: Sync Files
 on:
   push:
     branches:
-      - main
-      - branch1  
+      - main  
   workflow_dispatch:
 jobs:
   sync:
