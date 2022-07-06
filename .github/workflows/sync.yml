@@ -13,3 +13,5 @@ jobs:
         git checkout branch2
         git pull
         git push sync -all
+        with:
+          GH_PAT: ${{ secrets.GH_PAT }}   
