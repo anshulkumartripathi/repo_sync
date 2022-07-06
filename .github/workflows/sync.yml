@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - run: |
-        git remote add sync https://github.com/anshulktripathi/sync_repo_gmail
+        git remote add sync https://github.com/anshulktripathi/sync_repo_gmail.git
         git checkout branch2
         git pull
         git push sync -all
