@@ -2,7 +2,7 @@ name: Sync Files
 on:
   push:
     branches:
-      - main
+      - branch2
   workflow_dispatch:
 jobs:
   sync:
@@ -10,6 +10,6 @@ jobs:
     steps:
      - run: |
         git remote add sync https://github.com/anshulktripathi/sync_repo_gmail
-        git checkout main
+        git checkout branch2
         git pull
         git push sync -all
